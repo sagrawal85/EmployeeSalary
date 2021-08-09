@@ -1,0 +1,1 @@
+INSERT INTO employees (id, login, name,salary,startDate) VALUES ('e0001','hpotter','Harry Potter',1234.00,TO_DATE('01-12-2019','dd-MM-yyyy'));

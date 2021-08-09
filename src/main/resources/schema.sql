@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS employees;
+
+CREATE TABLE employees (
+  id VARCHAR(255)  PRIMARY KEY,
+  login VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  salary DECIMAL(10, 3) NOT NULL,
+  startdate DATE NOT NULL
+)
